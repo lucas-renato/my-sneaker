@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MySneaker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1c1c1c;
+            color: white;
+        }
+
+        .navbar,
+        .card {
+            background-color: #2c2c2c;
+        }
+
+        .card {
+            border: none;
+        }
+
+        .form-select,
+        .form-control {
+            background-color: #2c2c2c;
+            color: white;
+            border: none;
+        }
+
+        .btn-primary {
+            background-color: #4caf50;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">MySneaker</a>
+            <div class="d-flex">
+                <button class="btn btn-light me-2">Entrar</button>
+                <button class="btn btn-dark">Criar conta</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner inicial -->
+    <section class="text-center my-5">
+        <img src="scr/pexels-mark-joey-balani-434394388-152989490.png" class="rounded" alt="Banner de destaque">
+        <h2 class="mt-4">O que você procura?</h2>
+        <p>Nos ajude a encontrar seu tênis perfeito</p>
+
+        <div class="container my-4">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <select class="form-select" aria-label="Marca">
+                        <option selected>Marca</option>
+                        <option value="Nike">Nike</option>
+                        <option value="Adidas">Adidas</option>
+                        <option value="New Balance">New Balance</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select class="form-select" aria-label="Preço">
+                        <option selected>Preço</option>
+                        <option value="0-500">Até R$500</option>
+                        <option value="500-1000">R$500-R$1000</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select class="form-select" aria-label="Cor">
+                        <option selected>Cor</option>
+                        <option value="Preto">Preto</option>
+                        <option value="Branco">Branco</option>
+                        <option value="Vermelho">Vermelho</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lista de Produtos -->
+    <section class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4>Produtos</h4>
+            <div>
+                <button class="btn btn-outline-light btn-sm">Mais recente</button>
+                <button class="btn btn-outline-light btn-sm">Preço mais alto</button>
+                <button class="btn btn-outline-light btn-sm">Preço mais baixo</button>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card p-3 text-center">
+                    <img src="scr/pexels-rafael-quaty-37077235-13236696.jpg" class="card-img-top mb-3" alt="Tênis 1">
+                    <h5 class="card-title">Tênis New Balance 480 Low Unissex</h5>
+                    <p class="card-text">R$599,90</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card p-3 text-center">
+                    <img src="scr/pexels-perfect-lens-19737599.jpg" class="card-img-top mb-3" alt="Tênis 2">
+                    <h5 class="card-title">Tênis Adidas Aspyre Masculino</h5>
+                    <p class="card-text">R$659,70</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card p-3 text-center">
+                    <img src="scr/pexels-howard-senton-2148272793-30707531.jpg" class="card-img-top mb-3" alt="Tênis 3">
+                    <h5 class="card-title">Tênis Adidas Casual VI Court 3.0</h5>
+                    <p class="card-text">R$517,38</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Página de Produto Individual -->
+    <section class="container my-5">
+        <div class="row g-5">
+            <div class="col-md-6">
+                <img src="scr/pexels-rafael-quaty-37077235-13236696.jpg" class="img-fluid" alt="Tênis Detalhe">
+            </div>
+            <div class="col-md-6">
+                <h2>Tênis Nike Giannis Immortality 4 Masculino</h2>
+                <span class="badge bg-success mb-2">Frete grátis</span>
+                <h3>R$569,99</h3>
+                <p class="text-muted">ou R$599,99 em até 12x sem juros</p>
+
+                <div class="row g-3 mb-4">
+                    <div class="col-md-6">
+                        <select class="form-select">
+                            <option selected>Cor</option>
+                            <option>Preto e Vermelho</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <select class="form-select">
+                            <option selected>Tamanho</option>
+                            <option>41</option>
+                            <option>42</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary w-100 mb-4">Adicionar ao carrinho</button>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed bg-dark text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                Descrição
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-white">
+                                O Giannis Immortality 4 foi criado para o jogador multifacetado. Novo formato elegante
+                                de suporte ao calcanhar para paradas bruscas. Tração aprimorada para melhor mobilidade e
+                                velocidade.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
