@@ -1,4 +1,4 @@
-# 👟 MySneaker - Loja de Calçados
+# 👟 MySneaker - Loja de Tênis
 
 Um projeto simples para uma loja de calçados online fictícia, a "MySneaker". Este repositório contém o código HTML e utiliza o framework Bootstrap 5 para estilização e responsividade.
 
@@ -8,7 +8,8 @@ Um projeto simples para uma loja de calçados online fictícia, a "MySneaker". E
 
 - Estrutura básica da página inicial (`index.html`).
 - Barra de navegação (Navbar Bootstrap).
-- Banner principal dinâmico (utilizando vídeo MP4).
+- Estilização inicial aplicada via (`style.css`).
+- Funcionalidades básicas de interação iniciadas em (`script.js`).
 - Layout responsivo básico fornecido pelo Bootstrap.
 - Espaços designados para listagem de produtos (conteúdo a ser preenchido).
 

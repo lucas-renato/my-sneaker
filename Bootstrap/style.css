@@ -1,0 +1,29 @@
+body {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.navbar,
+.card {
+    background-color: #2c2c2c;
+}
+
+.card {
+    border: none;
+}
+
+.form-select,
+.form-control {
+    background-color: #2c2c2c;
+    color: white;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #4caf50;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
