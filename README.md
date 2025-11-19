@@ -5,7 +5,6 @@ Um projeto simples para uma loja de calçados online fictícia, a "MySneaker". E
 ## Status do Projeto
 
 🚧 Em desenvolvimento 🚧
-
 - Estrutura básica da página inicial (`index.html`).
 - Barra de navegação (Navbar Bootstrap).
 - Estilização inicial aplicada via (`style.css`).
