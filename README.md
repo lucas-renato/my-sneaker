@@ -13,12 +13,6 @@ Um projeto simples para uma loja de calçados online fictícia, a "MySneaker". E
 - Layout responsivo básico fornecido pelo Bootstrap.
 - Espaços designados para listagem de produtos (conteúdo a ser preenchido).
 
-## Tecnologias Utilizadas
-
-- **HTML5:** Linguagem de marcação para a estrutura das páginas.
-- **Bootstrap 5:** Framework CSS para design responsivo e componentes pré-estilizados.
-- **Git:** Sistema de controle de versão.
-- **GitHub:** Plataforma de hospedagem do repositório e colaboração.
 
 ## Autores / Contribuidores
 
