@@ -11,7 +11,6 @@ Um projeto simples para uma loja de calçados online fictícia, a "MySneaker". E
 - Layout responsivo básico fornecido pelo Bootstrap.
 - Espaços designados para listagem de produtos (conteúdo a ser preenchido).
 
-
 ## Autores / Contribuidores
 
 - **<Lucas Renato>** - [@lucas-renato>](https://github.com/lucas-renato>)
