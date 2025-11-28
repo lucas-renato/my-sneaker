@@ -2,7 +2,7 @@
 
 Um projeto simples para uma loja de calçados online fictícia, a "MySneaker". Este repositório contém o código HTML e utiliza o framework Bootstrap 5 para estilização e responsividade.
 ## Status do Projeto
-
+nonono
 
 🚧 Em desenvolvimento 🚧
 - Estrutura básica da página inicial (`index.html`).
